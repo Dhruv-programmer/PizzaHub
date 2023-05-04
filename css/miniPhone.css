@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar
+{
+    flex-direction: column;
+}
+#logo img
+{
+    display: block;
+    margin: auto;
+}
+#navbar ul
+{
+    padding: 0 0 0.2rem 0;
+    margin: 0.4rem 0;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+}
+#navbar li
+{
+    margin: 0;
+    padding: 0;
+}
+#navbar li a
+{
+    padding: 0.4rem;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1rem;
+}   
+
+
+#home 
+{
+    margin: 0;
+    padding: 5px 0;
+    height: 283px;
+}
+ #home p
+{
+    font-size: 0.8rem;
+}
+#home::before
+{
+    height: 370px;
+}
+#services
+{
+    padding: 0.4rem 0;
+}
+#serviceBox
+{
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+#serviceBox img
+{
+    width: 8rem;
+    height: 5rem;
+}
+#serviceBox p
+{
+    font-size: 1rem;
+}
+#serviceBox .box
+{
+    height: 21.3rem;
+    margin-right: 0;
+}
+
+
+
+#clients
+{
+    height: 13rem;
+}
+#client 
+{
+    flex-wrap: wrap;
+    /* height: 3rem; */
+}
+#client h2
+{
+    margin-bottom: 50px;
+}
+#client img
+{
+    padding: 5px 0;
+    margin: 0 10px;
+    height: 70px;
+    width: 90px;
+}
+#review-section
+{
+    height: 22rem;
+}
+
+#review-section form
+{
+    width: 70%;
+}
+
+#first-name,
+#second-name {
+    width: 94%;
+    margin:0;
+}
+
+.names div input
+{
+    margin:0;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.names div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+section#review-section {
+    font-size: 0.7rem;
+    height: 24rem;
+}

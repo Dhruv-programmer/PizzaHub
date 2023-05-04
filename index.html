@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaHub</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1150px)" href="css/phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/miniPhone.css">
+    <link rel="stylesheet" media="screen and (max-width: 350px)" href="css/ultraMiniPhone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logo.png" alt="PizzaHub">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#clients">About Us</a></li>
+                <li><a href="#review-section">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="box">
+            <h1 class="center-text">PizzaHub</h1>
+            <h3 class="center-text">Get Ready to be satisfied</h3>
+        </div>
+        <div class="box">
+            <p>
+                Get ready to experience a slice of heaven with Pizzahub! Our mouthwatering pizzas are made with only the
+                freshest ingredients, handcrafted and baked to perfection. Whether you're craving classic flavors or
+                bold new creations, we've got something for everyone. Join us at PizzaHub and discover your new favorite
+                slice!</p>
+        </div>
+        <div class="box">
+            <a href="#">
+                <button class="btn">Order Now</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="secondary-heading center-text">Our Services</h1>
+            <div id="serviceBox">
+                <div class="box">
+                    <img src="img/service1.png" alt="">
+                    <h3 class="center-text">
+                        Food Catering
+                    </h3>
+                    <p class="center-text">
+                        Pizzahub's catering services offer a wide range of delicious options for any event or gathering.
+                        Our team works closely with you to customize a menu that fits your needs and budget.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="img/service2.png" alt="">
+                    <h3 class="center-text">
+                        Bulk Orders
+                    </h3>
+                    <p class="center-text">
+                        Pizzahub offers a bulk ordering facility for large events, parties, or corporate functions. Our
+                        fresh, handcrafted pizzas are made with the finest ingredients and baked to perfection.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="img/service3.png" alt="">
+                    <h3 class="center-text">
+                        Food Delivery
+                    </h3>
+                    <p class="center-text">
+                        Pizzahub offers convenient food delivery straight to your door. With our easy-to-use online
+                        ordering system, you can place your order in minutes and have it delivered in no time.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <div>
+        <section id="clients">
+            <div class="box">
+                <h2 class="center-text">Our Clients</h2>
+            </div>
+            <div class="box" id="client">
+                <div class="clientlogo"><img src="img/client1.png" alt=""></div>
+                <div class="clientlogo"><img src="img/client2.png" alt=""></div>    
+                <div class="clientlogo"><img src="img/client3.png" alt=""></div>
+                <div class="clientlogo"><img src="img/client4.png" alt=""></div>
+            </div>
+        </section>
+    </div>
+
+    <section id="review-section">
+        <div class="box">
+            <h2 class="center-text" id="form-heading">Write a Review</h2>
+        </div>
+            <form action="" id="reviewForm">
+                <div class = "names">
+                    <div class="f-name">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="myname" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="s-name">
+                        <label for="second-name">Second Name</label>
+                        <input type="text" name="myname" id="second-name" placeholder="Second Name">
+                    </div>
+                </div>
+                <label for="email">Email</label>
+                <input type="email" name="myemail" id="email" placeholder="Enter Your Email">
+                <label for="review">Write a Review</label>
+                <textarea name="myreview" id="review" cols="14" rows="4" placeholder="Enter Your Reviews Here...."></textarea>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+    </section>
+    <footer>
+        <div class="center-text">
+            Copyright &copy; www.PizzaHub.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

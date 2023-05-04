@@ -1,0 +1,62 @@
+#clients::before {
+    height: 11rem;
+}
+
+#clients {
+    height: 10rem;
+}
+#serviceBox p
+{
+    font-size: 0.9rem;
+}
+
+#first-name,
+#second-name {
+    width: 94%;
+    margin:0;
+}
+
+.names div input
+{
+    margin:0;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.names div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+section#review-section {
+    font-size: 0.7rem;
+    height: 24rem;
+}
+
+#navbar li a {
+    padding: 0rem;
+}
+
+#home p {
+    font-size: 0.6rem;
+}
+
+#home {
+    height: 285px;
+}
+
+#serviceBox .box {
+    height: 22rem;
+}
+
+#client img {
+    padding: 5px 0;
+    margin: 0 10px;
+    height: 50px;
+    width: 75px;
+}

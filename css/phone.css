@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#navbar
+{
+    flex-direction: column;
+}
+#logo img
+{
+    display: block;
+    margin: auto;
+}
+#navbar ul
+{
+    padding: 0 0 0.9rem 0;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+#home 
+{
+    padding: 5px 0;
+    height: 338px;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+#home p
+{
+    font-size: 1.1rem;
+}
+#home::before
+{
+    height: 430px;
+}
+#services
+{
+    padding: 0.4rem 0;
+}
+#serviceBox
+{
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+#serviceBox .box
+{
+    width: 70%;
+    height: 20rem;
+}
+#serviceBox img
+{
+    width: 8rem;
+    height: 5rem;
+}
+#clients ::before
+{
+    /* height: 150px; */
+}
+#clients
+{
+    /* overflow: hidden; */
+    height: 13rem;
+}
+@media screen and (max-width: 760px) {
+    #clients
+    {
+        height: 18rem;
+    }
+}
+#client
+{
+    margin: 4px 0;
+    flex-wrap: wrap;
+}
+#reviewForm .names div
+{
+    padding: 0 4px 0 0 ;
+}
+#client img
+{
+    padding: 5px 0;
+    margin: 0 10px;
+    height: 100px;
+    width: 120px;
+}
+
+
+#review-section form
+{
+    width: 45%;
+}
+#first-name,#second-name
+{
+    width: 98%;
+}
